@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register User</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Papa's Audio Book Auditorium</h1>
+    <a href="/home">Home</a> |
+    <a href="/query1">Browse Books</a> |
+    <a href="/query2">Browse Authors</a> |
+    <a href="/query3">View Reviews</a> |
+    <a href="/query4">View Popular Books</a> |
+    <a href="/query5">Purchase a Book</a>
+    <br />
+    <h2>User Registration</h2><br />
+    <form action="/register_user" method="POST">
+      First Name: <input type="text" name="fname" required><br />
+      Last Name: <input type="text" name="lname" required><br />
+      Email: <input type="email" name="email" required><br />
+      Date of Birth: <input type="date" name="dob" required><br /><br />
+      <input type="submit" value="Register pls">
+    </form>
+  </div>
+</body>
+</html>
